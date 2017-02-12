@@ -177,7 +177,7 @@ more...")
    `(font-lock-string-face ((,class ,string)))
    `(font-lock-type-face ((,class (:weight normal :foreground "#6434A3"))))
    `(font-lock-variable-name-face ((,class (:weight normal :foreground "#BA36A5")))) ; #800080
-   `(font-lock-warning-face ((,class (:weight bold :foreground "red"))))
+   `(font-lock-warning-face ((,class (:weight bold :foreground "red" :background "#880000"))))
 
    ;; Button and link faces.
    `(link ((,class ,link)))
