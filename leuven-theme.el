@@ -645,6 +645,9 @@ more...")
    `(magit-branch-remote ((,class (:foreground "#D0372D" :box 1))))
    `(magit-tag ((,class (:foreground "hot pink" :weight bold :box 1))))
 
+   `(eyebrowse-mode-line-active ((,class (:foreground "#FC7202"))))
+   `(eyebrowse-mode-line-inactive ((,class (:foreground "#7F7F7F"))))
+
    `(makefile-space-face ((,class (:background "hot pink"))))
    `(makefile-targets ((,class (:weight bold :foreground "blue"))))
    ;; `(markdown-blockquote-face ((,class ())))
