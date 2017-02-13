@@ -148,8 +148,8 @@ more...")
    `(whitespace-trailing ((,class (:foreground "#B3B3B3" :background "#FFFFAB"))))
 
    ;; Mode line faces.
-   `(mode-line ((,class (:box (:line-width 1 :color "#1A2F54") :foreground "#85CEEB" :background "#335EA8"))))
-   `(mode-line-inactive ((,class (:box (:line-width 1 :color "#4E4E4C") :foreground "#F0F0EF" :background "#9B9C97"))))
+   `(mode-line ((,class (:box (:line-width 6 :color "#335EA8") :foreground "#85CEEB" :background "#335EA8"))))
+   `(mode-line-inactive ((,class (:box (:line-width 6 :color "#4E4E4C") :foreground "#F0F0EF" :background "#4E4E4C"))))
    `(mode-line-buffer-id ((,class (:weight bold :foreground "white"))))
    `(mode-line-emphasis ((,class (:weight bold :foreground "white"))))
    `(mode-line-highlight ((,class (:foreground "yellow"))))
